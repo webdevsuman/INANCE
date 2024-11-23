@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav,
+p {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #c0e2e798;
+}
+h1 {
+  font-size: 35px;
+  font-weight: 640;
+  color: black;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  /* background-color: #6399e913; */
+}
+.logo a {
+  text-decoration: none;
+}
+.logo h1 {
+  color: #0355cc;
+}
+
+.nav-items {
+  display: flex;
+  width: 35%;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #ff8a1d !important;
+}
+
+.nav-link:active,
+.nav-link.active {
+  color: #0355cc !important;
+}
+
+.nav-items > li {
+  list-style-type: none;
+}
+
+/* hero section */
+.hero {
+  display: flex;
+  padding: 0 150px;
+  padding-top: 70px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-content > h1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.hero-content p {
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+}
+
+.hero-content h1 {
+  margin-bottom: 20px;
+  color: #0355cc;
+}
+
+.orange-btn {
+  width: 200px;
+  font-family: "Merriweather Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 10px 45px;
+  background-color: #ff8a1d;
+  border: 1px solid #ff8a1d;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+.orange-btn:hover {
+  background-color: white;
+  color: #ff8a1d;
+}
+
+/* Features section  */
+.features {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+}
+
+.feature {
+  background-color: white;
+  width: 330px;
+  /* height: 134px; */
+  padding: 45px 15px;
+  margin: 0px 10px;
+  box-shadow: 3px 3px 6px 6px rgba(65, 64, 64, 0.253);
+  position: relative;
+  bottom: 100px;
+  fill: #40208ba2;
+  color: #40208ba2;
+  font-weight: 700;
+}
+.feature svg {
+  margin-bottom: 10px;
+}
+
+.feature:hover,
+.feature.active {
+  background-color: #ff8a1d;
+  color: white;
+  fill: white;
+}
+
+/* About section */
+.about {
+  display: flex;
+  align-items: center;
+  padding: 0px 150px;
+  background-color: white;
+}
+
+.about h1 {
+  text-transform: uppercase;
+}
+
+.about p {
+  margin: 25px 0px;
+}
+
+.blue-btn {
+  background-color: #0355cc;
+  color: white;
+  border: 1px solid #0355cc;
+  padding: 15px 30px;
+  font-weight: 700;
+}
+
+.blue-btn:hover {
+  background-color: #ffffff;
+  color: #0355cc;
+  border: 1px solid #0355cc;
+}
+
+.about img {
+  padding: 20px;
+}
+
+/* Convince section  */
+.convince {
+  display: flex;
+  align-items: center;
+  padding: 100px 150px;
+}
+.convince-img img {
+  width: 500px;
+}
+
+.convince-text {
+  padding: 20px;
+}
+
+.convince-text h1 {
+  text-transform: uppercase;
+  color: #0355cc;
+}
+
+.convince-text p {
+  margin: 20px 0px;
+}
+
+.convince-text button {
+  background-color: #ff8a1d;
+  color: white;
+  padding: 15px 30px;
+  border: 1px solid #ff8a1d;
+  font-weight: 700;
+}
+
+.convince-text button:hover {
+  background-color: white;
+  color: #ff8a1d;
+  border: 1px solid #ff8a1d;
+}
+
+/* Services section */
+.service-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 100px;
+  gap: 60px;
+}
+
+.service-section h1 {
+  text-transform: uppercase;
+}
+
+.services {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+}
+
+.service {
+  width: 330px;
+  padding: 45px 15px;
+  margin: 0px 10px;
+  box-shadow: 1px 1px 4px 4px rgba(65, 64, 64, 0.253);
+}
+
+.service:hover {
+  color: white;
+  background-color: #ff8a1d;
+}
+
+.service p {
+  margin: 10px 0px;
+}
+
+.service img {
+  width: 65px;
+  height: 65px;
+}
+
+.service:hover img {
+  /* this attribute means that = when service class is in hover state, set the attribute of img element to */
+  filter: brightness(0) invert(1);
+  /* Brightness zero makes the image completely black. Then when inverted, color becomes white. */
+}
+
+/* Testimonials section */
+.testimonials-section {
+  text-align: center;
+  background-color: white;
+}
+.testimonials-section h1 {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100px;
+}
+
+.control-btn {
+  background-color: #0355cc;
+  fill: white;
+  padding: 12px 16px;
+}
+
+/* Contact Us section  */
+.contact {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 100px;
+  width: 100%;
+  gap: 60px;
+}
+.contact-text {
+  width: 50%;
+}
+form.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* height: 300px; */
+}
+
+.form input {
+  height: 40px;
+  padding: 0px 18px;
+  background-color: #ffffff;
+  border: none;
+  color: #ffffff;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form input::placeholder {
+  color: #737272;
+}
+
+.form button {
+  width: 140px;
+  margin-top: 50px;
+}
+.map {
+  width: 50%;
+  padding-top: 70px;
+}
+
+.contact-text h1 {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.form input.message-text {
+  height: 135px;
+}
+.contact-text :last-child {
+  margin-top: 30px;
+}
+
+/* Info section */
+.info-section {
+  background-color: #0a0f43;
+  height: 700px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.info-item {
+  width: 300px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-text {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 200px;
+}
+
+.info-text a {
+  text-decoration: none;
+  color: white;
+}
+
+.info-text .img-box {
+  width: 80px;
+  height: 80px;
+  background-color: #0355cc;
+  border-radius: 50%;
+  fill: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: +100;
+}
+
+.info-item:hover .img-box {
+  background-color: #ff8a1d;
+}
+
+.img-box img {
+  /* filter: brightness(0) invert(1); */
+}
+
+.info-hr {
+  position: relative;
+  width: 50%;
+  bottom: 140px;
+  left: 320px;
+  height: 1px;
+}
+
+.info-section h4 {
+  font-size: 25px;
+  padding-top: 70px;
+}
+
+.follow-hr {
+  width: 60%;
+  position: relative;
+  left: 20%;
+}
+
+footer {
+  padding: 20px;
+}
+
+.follow-us {
+  width: 140px;
+  height: 34px;
+  background-color: #ffffff;
+  position: relative;
+  left: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  fill: #0355cc;
+  margin: 50px 0;
+}
+
+.follow-us svg:hover {
+  fill: #ff8a1d;
+}
+
+/* -------------------------------------RESPONSIVE DESIGN---------------------------------- */
+
+@media (max-width: 1110px) {
+  /* Hero & About & Convince & Info section */
+  .hero,
+  .about,
+  .convince,
+  .info-section {
+    text-align: center;
+    align-items: center;
+  }
+  .hero-content {
+    align-items: center;
+    padding: 50px;
+  }
+
+  /* Features & About & Services section */
+  .features,
+  .about,
+  .services {
+    gap: 50px;
+  }
+
+  /* Contact section */
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+  }
+  .map {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 75%;
+    height: 0;
+  }
+  .map iframe {
+    position: absolute;
+    top: 0;
+
+    left: 0;
+
+    width: 100% !important;
+
+    height: 100% !important;
+  }
+
+  /* Footer section */
+  .info-text > a {
+    display: flex;
+    justify-content: center;
+  }
+  .info-hr {
+    transform: rotate(90deg);
+    translate: -150px -140px;
+  }
+  .info-section {
+    height: 1000px;
+  }
+}
