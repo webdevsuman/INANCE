@@ -437,9 +437,21 @@ footer {
     text-align: center;
     align-items: center;
   }
+
+  .hero,
+  .about,
+  .convince,
+  .service-section,
+  .contact {
+    padding: 30px 0px;
+  }
   .hero-content {
     align-items: center;
     padding: 50px;
+  }
+
+  .img-fluid {
+    width: 300px !important;
   }
 
   /* Features & About & Services section */
@@ -457,11 +469,15 @@ footer {
     align-items: center;
     padding: 100px 0px;
   }
+  .contact-text {
+    width: 80%;
+  }
   .map {
     position: relative;
     overflow: hidden;
     padding-bottom: 75%;
     height: 0;
+    width: 80%;
   }
   .map iframe {
     position: absolute;
@@ -481,9 +497,13 @@ footer {
   }
   .info-hr {
     transform: rotate(90deg);
-    translate: -150px -140px;
+    translate: -266px -160px;
+    width: 80%;
   }
   .info-section {
     height: 1000px;
+  }
+  .follow-us {
+    left: 31%;
   }
 }

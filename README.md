@@ -27,7 +27,7 @@ Make the template from scratch and make it responsive.
 ### Links
 
 - Solution URL: [https://github.com/webdevsuman/INANCE](https://github.com/webdevsuman/INANCE)
-- Live Site URL: [https://webdevsuman.github.io/INANCE](ttps://webdevsuman.github.io/INANCE)
+- Live Site URL: [https://webdevsuman.github.io/INANCE](https://webdevsuman.github.io/INANCE)
 
 ## My process
 
