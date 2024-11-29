@@ -148,6 +148,10 @@ h1 {
   background-color: white;
 }
 
+.about-text {
+  padding: 0px 40px;
+}
+
 .about h1 {
   text-transform: uppercase;
 }
@@ -291,10 +295,11 @@ h1 {
   background-color: white;
   padding: 100px;
   width: 100%;
-  gap: 60px;
+  /* gap: 60px; */
 }
 .contact-text {
   width: 50%;
+  padding: 0px 40px 20px;
 }
 form.form {
   display: flex;
@@ -308,7 +313,7 @@ form.form {
   padding: 0px 18px;
   background-color: #ffffff;
   border: none;
-  color: #ffffff;
+  color: #4e4b4b;
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -382,9 +387,9 @@ form.form {
   background-color: #ff8a1d;
 }
 
-.img-box img {
-  /* filter: brightness(0) invert(1); */
-}
+/* .img-box img {
+  filter: brightness(0) invert(1);
+} */
 
 .info-hr {
   position: relative;

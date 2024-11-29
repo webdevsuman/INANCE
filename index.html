@@ -11,6 +11,25 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
   </head>
   <body>
     <!-- My Navbar -->
@@ -64,7 +83,7 @@
       </div>
     </nav>
     <!-- hero section -->
-    <div class="hero container-fluid container-xxl row">
+    <div id="hero" class="hero container-fluid container-xxl row">
       <div class="hero-content col-lg-6 col-12">
         <h1>Repair and <br />Maintenance <br />Services</h1>
         <p>
@@ -73,7 +92,7 @@
           tempora iusto, ad possimus soluta hic praesentium mollitia consequatur
           beatae, aspernatur culpa.
         </p>
-        <button class="orange-btn">CONTACT US</button>
+        <a href="#contact"><button class="orange-btn">CONTACT US</button></a>
       </div>
       <div class="hero-image col-lg-6 col-12">
         <img
@@ -84,7 +103,7 @@
       </div>
     </div>
     <!-- Features section -->
-    <div class="features container-xxl container-fluid row">
+    <div id="features" class="features container-xxl container-fluid row">
       <div class="feature col-lg-4 col-md-6 col-12">
         <svg
           enable-background="new 0 0 511.995 511.995"
@@ -151,7 +170,7 @@
       </div>
     </div>
     <!-- About section -->
-    <div class="about container-xxl container-fluid row">
+    <div id="about" class="about container-xxl container-fluid row">
       <div class="about-text col-12 col-lg-6">
         <h1>About Us</h1>
         <p>
@@ -162,7 +181,9 @@
           ad veritatis voluptates, magni, ipsam odit adipisci perferendis,
           accusamus ratione! Beatae magnam ex ducimus eaque error!
         </p>
-        <button class="blue-btn">READ MORE</button>
+        <a href="./pages/about.html"
+          ><button class="blue-btn">READ MORE</button></a
+        >
       </div>
       <div class="about-img col-12 col-lg-6">
         <img
@@ -175,7 +196,7 @@
       </div>
     </div>
     <!-- Convince section -->
-    <div class="convince container-xxl container-fluid row">
+    <div id="convince" class="convince container-xxl container-fluid row">
       <div class="convince-img col-12 col-lg-6">
         <img
           class="img-fluid"
@@ -194,12 +215,12 @@
           anything embarrassing hidden in the middle of text. All randomised
           words which don't look even slightly
         </p>
-        <button>READ MORE</button>
+        <a href="#services"><button>READ MORE</button></a>
       </div>
     </div>
 
     <!-- Service section  -->
-    <div class="service-section container-xxl container-fluid">
+    <div id="services" class="service-section container-xxl container-fluid">
       <h1>Our Services</h1>
       <div class="services row">
         <div class="service">
@@ -227,11 +248,13 @@
           </p>
         </div>
       </div>
-      <button class="blue-btn">VIEW MORE</button>
+      <a href="./pages/service.html"
+        ><button class="blue-btn">VIEW MORE</button></a
+      >
     </div>
 
     <!-- TESTIMONIALS SECTION  -->
-    <div class="testimonials-section container-fluid">
+    <div id="testimonial" class="testimonials-section container-fluid">
       <h1>What our clients say</h1>
       <div
         id="carouselExampleAutoplaying"
@@ -305,7 +328,7 @@
       </div>
     </div>
     <!-- contact us section  -->
-    <div class="contact container">
+    <div id="contact" class="contact container">
       <div class="contact-text col-12 col-lg-6">
         <h1>Contact Us</h1>
         <form class="form" action="#">
@@ -313,7 +336,7 @@
           <input type="text" placeholder="Phone Number" /><br />
           <input type="text" placeholder="Email" /><br />
           <input type="text" placeholder="Message" class="message-text" /><br />
-          <button class="blue-btn">Send</button>
+          <a href="./index.html"><button class="blue-btn">Send</button></a>
         </form>
       </div>
       <div class="map col-12 col-lg-6">
@@ -331,7 +354,7 @@
 
     <!-- Info section  -->
 
-    <div class="info-section container-fluid">
+    <div id="info" class="info-section container-fluid">
       <div>
         <h4>GET IN TOUCH</h4>
         <div class="info-text container-fluid row">
@@ -440,7 +463,9 @@
         </svg>
       </div>
       <hr class="follow-hr" />
-      <footer>© 2024 All Rights Reserved By Free Html Templates</footer>
+      <footer id="footer">
+        © 2024 All Rights Reserved By Free Html Templates
+      </footer>
     </div>
 
     <!-- bootstrap script -->
