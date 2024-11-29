@@ -38,9 +38,12 @@ I made the whole website for desktop screen with HTML and CSS. I have used Flexb
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Bootstrap grid
+- Bootstrap grid, carousel
 - media query
 - fontawesome icons
+- favicon
+- google fonts
+- google map
 
 ### What I learned
 
@@ -60,7 +63,7 @@ This project has been a challenge. I have learned a lot of things. Like -
 
 ### Continued development
 
-I am still curious how I can position correctly the Get in Touch section horizontal line which gets transformed into a vertical line in small screens. In the Follow Us section its the same thing - for small screens, the position is not yet correct. I would appreciate any helpful tips.
+I am still curious how I can position correctly the Get in Touch section horizontal line which gets transformed into a vertical line in medium screens and small screens without code repeatition. In the Follow Us section its the same thing - for medium screens, the position is not yet perfect. I would appreciate any helpful tips.
 
 ## Author
 
